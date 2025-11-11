@@ -9,16 +9,7 @@ from datetime import datetime
 from typing import List, Dict
 
 def create_pdf_chat_history(chat_history: List[Dict], filename: str = "chat_history.pdf") -> BytesIO:
-    """
-    Generate a beautifully formatted PDF from chat history.
-    
-    Args:
-        chat_history: List of dicts with 'question', 'answer', and 'sources' keys
-        filename: Name of the PDF file
-        
-    Returns:
-        BytesIO buffer containing the PDF
-    """
+   
     buffer = BytesIO()
     
     # Create PDF document
