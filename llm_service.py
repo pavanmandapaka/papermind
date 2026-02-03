@@ -72,7 +72,7 @@ def build_prompt(context: str, question: str, conversation_history: List[dict] =
         "- Provide examples or applications when mentioned in the context\n"
         "- If solving a problem, show the logical flow and reasoning\n"
         "- Aim for 5-8 sentences minimum for comprehensive coverage\n"
-        "- Use clear structure: Introduction → Explanation → Examples/Steps → Conclusion\n"
+        "- Use clear structure: Introduction -> Explanation -> Examples/Steps -> Conclusion\n"
         
         "\n\n**Important**: If the query is not related to the document content, say: "
         "'This question is not covered in the provided document. Please ask questions related to the document content.'\n\n"
